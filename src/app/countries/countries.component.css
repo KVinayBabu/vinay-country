@@ -1,0 +1,21 @@
+.list-group{
+    display: block;
+    width: 80%;
+    margin:10px;
+    cursor: pointer;
+}
+.list-group-item{
+    margin: 5px;
+    transition: 0.2s;
+}
+.list-group-item:hover{
+    transform: scale(1.05);
+    background-color: rgb(4, 91, 253);
+    color: white;
+}
+.wrapper{
+    display: flex;
+}
+.state{
+    width: 50%;
+}

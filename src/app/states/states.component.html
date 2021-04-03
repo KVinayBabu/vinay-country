@@ -1,0 +1,12 @@
+<div class="col"*ngIf ="flags">
+    <h1>Country Name:{{flags.data.name}}</h1>
+    <img src={{flags.data.flag}}>
+    <div *ngIf="states">
+     <h2>States</h2>   
+    <ul  class="list-group" *ngFor="let data of states">
+        <li class="list-group-item">
+           {{data.name}} 
+        </li>
+    </ul>
+</div>
+    </div>

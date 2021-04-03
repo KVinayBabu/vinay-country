@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <div>
+        <h1>Countries List</h1>
+<ul  class="list-group" *ngFor="let data of Countries">
+    <li class="list-group-item" (click)="countryClick(data)">
+       {{data.country.country_name}} 
+    </li>
+</ul>
+</div>
+<div class="state">
+<app-states [item]="country"></app-states>
+</div>
+</div>
